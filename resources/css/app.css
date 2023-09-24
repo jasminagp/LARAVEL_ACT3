@@ -5,3 +5,23 @@
 [x-cloak] {
     display: none;
 }
+/** Google Fonts **/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/** Fonts **/
+@layer base {
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  }

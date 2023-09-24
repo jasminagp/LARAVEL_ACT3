@@ -16,6 +16,12 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'beig': '#FFDBC3',
+                'lila-clar':'#9F91CC',
+                'lila':'#5C4B99',
+                'lila-fosc':'#3D246C',
+            },
         },
     },
 
